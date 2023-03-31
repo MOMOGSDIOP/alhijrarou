@@ -13116,3 +13116,20 @@ section#contact form#contactForm :-ms-input-placeholder {
     font-weight: 700;
     color: #ced4da;
 }
+
+.inscription {
+    position: absolute;
+    left: 20%;
+    background-color: var(--bs-gray-600);
+    width: 200px;
+    font: large;
+    height: 50px;
+
+}
+
+.message {
+    background-color: var(--bs-gray-600);
+    width: 250px;
+    font: large;
+    height: 50px;
+}
