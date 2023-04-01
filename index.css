@@ -13117,8 +13117,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .inscription {
-    position: absolute;
-    left: 20%;
     background-color: var(--bs-gray-600);
     width: 200px;
     font: large;
@@ -13131,4 +13129,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 250px;
     font: large;
     height: 50px;
+}
+
+#contactForm {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+}
+
+.nousContacter {
+    position: absolute;
+    left: 50%;
+    width: 500px;
 }

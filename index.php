@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Touba Alhjiratou Paris</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/titre.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -111,7 +111,7 @@
     <section class="page-section" id="contact">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Inscription &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
+                <h2 class="section-heading text-uppercase">Devenir membre... &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
                     &emsp;&emsp;</h2>
 
             </div>
@@ -121,7 +121,7 @@
             <!-- This form is pre-integrated with SB Forms.-->
             <!-- To make this form functional, sign up at-->
             <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST">
+            <form style="margin: 0 auto;" id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -210,8 +210,9 @@
         ?>
             <!---- UN AUTRE FORMULAIRE POUR ENVOYER DES MESSAGES ---->
             <div id="message" class="nousContacter">
-                <h3><strong>Nous Contacter...</strong></h3>
-                <form class="nousContacter" id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST">
+                <h3><strong style="color: white;">Nous Contacter...</strong></h3>
+                <form style="margin: 0 auto;" class="nousContacter" id="contactForm" data-sb-form-api-token="API_TOKEN"
+                    method="POST">
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->
@@ -224,8 +225,8 @@
                             <textarea style="resize: none;" class="form-control" id="message" name="texteMessage"
                                 placeholder="Your Message *" data-sb-validations="required" required></textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">Presentez vous!</div> <br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" name="message" value="Envoyé messages"
-                                style="background-color: grey;">
+                            &emsp;&emsp;&emsp;&emsp;&emsp;
+                            <input type="submit" name="message" value="Envoyé messages" style="background-color: grey;">
                         </div>
                     </div>
                 </form>
